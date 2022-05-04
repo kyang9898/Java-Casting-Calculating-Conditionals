@@ -7,7 +7,7 @@ public class BoilingWater {
 
         System.out.println("Enter a number greater than 212:");
         int num = Integer.valueOf(scanner.nextLine());
-        if (num > 212) {
+        if (num > 212) { //Checks if number is greater than 212. 
             System.out.println("Water is boiling!");
         }
     }
